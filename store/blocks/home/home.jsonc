@@ -37,11 +37,11 @@
     "props": {
       "images": [
         {
-          "image": "https://mastampa.vtexassets.com/arquivos/bolsosycarteras.jpg",
-          "mobileImage": "https://mastampa.vtexassets.com/arquivos/bolsosycarteras.jpg",
+          "image": "https://mastampa.vtexassets.com/arquivos/faldas-pantalones.jpg",
+          "mobileImage": "https://mastampa.vtexassets.com/arquivos/faldas-pantalones.jpg",
           "width": "95%",
           "link": {
-            "url": "/Accesorio/Bolsos-y-Carteras/Cartera"
+            "url": "/Vestuario/Faldas-y-Pantalones"
           }
         }
       ]
@@ -59,7 +59,7 @@
   },
   "rich-text#texto-categoria-01": {
     "props": {
-      "text": "##### CARTERAS",
+      "text": "##### FALDAS/PANTALONES",
       "blockClass": "categoria-title",
       "textAlignment": "CENTER",
       "textPosition": "CENTER"

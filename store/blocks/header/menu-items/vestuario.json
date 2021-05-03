@@ -64,12 +64,6 @@
           "orientation": "vertical"
         },
         "children": [
-          "menu-item#trajedebano",
-          "menu-item#bikini",
-          "menu-item#tankini",
-          "menu-item#trikini",
-          "menu-item#faldon",
-          "menu-item#trajebano",
           "menu-item#casacasyparkas",
           "menu-item#casacayparka",
           "menu-item#impermeable"
