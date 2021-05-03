@@ -324,3 +324,22 @@
     width: revert !important;
   }
 }
+
+.subscriberContainer
+.title,
+.subscriberContainer
+.subscribeLabel{
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.subscriberContainer
+.form
+.content
+:global(.vtex-styleguide-9-x-input){
+  font-family: 'Roboto Condensed';
+}
+.subscriberContainer
+.submit
+:global(.vtex-button__label){
+  font-family: 'Roboto Condensed', sans-serif;
+}

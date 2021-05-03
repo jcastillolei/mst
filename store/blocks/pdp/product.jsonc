@@ -163,6 +163,12 @@
     },
     "children": ["add-to-cart-button"]
   },
+  "add-to-cart-button": {
+    "props":{
+      "text": "agregar al carro",
+      "unavailableText": "no disponible"
+    }
+  },
   "share#default": {
     "props": {
       "social": {

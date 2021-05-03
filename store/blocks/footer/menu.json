@@ -172,7 +172,9 @@
       "menu-item#quienessomos-mobile",
       "menu-item#terminos-mobile",
       "menu-item#contacto-mobile",
-      "menu-item#faq-mobile"
+      "menu-item#faq-mobile",
+      "menu-item#account-mobile"
+      
     ]
   },
 
@@ -224,6 +226,18 @@
         "noFollow": true,
         "tagTitle": "PREGUNTAS FRECUENTES",
         "text": "FAQ"
+      }
+    }
+  },
+  
+  "menu-item#account-mobile": {
+    "props": {
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": true,
+        "tagTitle": "MI CUENTA",
+        "text": "Mi Cuenta"
       }
     }
   }
