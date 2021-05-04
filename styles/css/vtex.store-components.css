@@ -40,12 +40,18 @@
 }
 
 .newsletter .form .label{
+  font-size: 0;
+}
+
+.newsletter .form .label::before{
+  content: 'Entérate de todas las novedades y promociones';
   color: black;
   font-size: 1rem;
   font-weight: 400;
   text-transform: uppercase;
   font-family: 'Roboto Condensed', sans-serif;
 }
+
 
 .newsletter .form .buttonContainer{
   padding-left: 0px;
@@ -55,7 +61,6 @@
   border-radius: 0px;
   border: #CF478A;
 }
-
 .newsletter .form :global(.vtex-button){
   color: black;
   text-transform: capitalize;
@@ -91,6 +96,7 @@
   color: white;
   font-size: 14px;
 }
+
 
 .inputGroup :global(.vtex-button) {
   background-color: transparent;

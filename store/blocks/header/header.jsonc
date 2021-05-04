@@ -115,7 +115,8 @@
       "menu-item#vestuario-mobile",
       "menu-item#calzado-mobile",
       "menu-item#accesorios-mobile",
-      "menu-item#nueva-mobile"
+      // "menu-item#nueva-mobile",
+      "menu-item#micuenta-mobile"
     ],
     "props": {
       "orientation": "vertical"
@@ -161,17 +162,17 @@
   "vtex.menu@2.x:menu#vestuario-mobile": {
     "props": {
       "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#trajedebano",
-      "menu-item#casacasyparkas",
-      "menu-item#vestidosyconjuntos",
-      "menu-item#blusasypoleras",
-      "menu-item#abrigosychaquetones",
-      "menu-item#sweaterychaleco",
-      "menu-item#chaquetayblazer",
-      "menu-item#faldasypantalones"
-    ]
+    }
+    // "children": [
+    //   "menu-item#trajedebano",
+    //   "menu-item#casacasyparkas",
+    //   "menu-item#vestidosyconjuntos",
+    //   "menu-item#blusasypoleras",
+    //   "menu-item#abrigosychaquetones",
+    //   "menu-item#sweaterychaleco",
+    //   "menu-item#chaquetayblazer",
+    //   "menu-item#faldasypantalones"
+    // ]
   },
 
 
@@ -214,15 +215,15 @@
   "vtex.menu@2.x:menu#accesorios-mobile": {
     "props": {
       "orientation": "vertical"
-    },
-    "children": [
-      "menu-item#bolsosycarteras",
-      "menu-item#monederosybilleteras",
-      "menu-item#playa",
-      "menu-item#joyeria",
-      "menu-item#complementos",
-      "menu-item#panuelosycapas"
-    ]
+    }
+    // "children": [
+    //   "menu-item#bolsosycarteras",
+    //   "menu-item#monederosybilleteras",
+    //   "menu-item#playa",
+    //   "menu-item#joyeria",
+    //   "menu-item#complementos",
+    //   "menu-item#panuelosycapas"
+    // ]
   },
 
   "menu-item#calzado-mobile": {
@@ -264,17 +265,17 @@
   "vtex.menu@2.x:menu#calzado-mobile": {
     "props": {
       "orientation": "vertical"
-    },
-    "children": [
-        "menu-item#ballerina",
-        "menu-item#bota",
-        "menu-item#botin",
-        "menu-item#mocasin",
-        "menu-item#sandalia",
-        "menu-item#zapatilla",
-        "menu-item#zapato",
-        "menu-item#zueco"
-    ]
+    }
+    // "children": [
+    //     "menu-item#ballerina",
+    //     "menu-item#bota",
+    //     "menu-item#botin",
+    //     "menu-item#mocasin",
+    //     "menu-item#sandalia",
+    //     "menu-item#zapatilla",
+    //     "menu-item#zapato",
+    //     "menu-item#zueco"
+    // ]
   },
 
 
@@ -290,6 +291,22 @@
         "noFollow": true,
         "tagTitle": "NUEVA COLECCIÓN",
         "text": "NUEVA COLECCIÓN"
+      }
+    }
+  },
+
+  "menu-item#micuenta-mobile": {
+    "props": {
+      "id": "menu-item-micuenta",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/account",
+        "noFollow": true,
+        "tagTitle": "MI CUENTA",
+        "text": "MI CUENTA"
       }
     }
   },
