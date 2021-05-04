@@ -131,7 +131,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/Vestuario",
         "noFollow": true,
         "tagTitle": "VESTUARIO",
         "text": "VESTUARIO"
@@ -184,7 +184,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/Accesorio",
         "noFollow": true,
         "tagTitle": "ACCESORIOS",
         "text": "ACCESORIOS"
@@ -234,7 +234,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/Calzado",
         "noFollow": true,
         "tagTitle": "CALZADO",
         "text": "CALZADO"

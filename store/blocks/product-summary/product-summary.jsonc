@@ -2,7 +2,7 @@
   "product-summary.shelf": {
     "children": [
       "stack-layout#prodsum",
-      "sku-selector",
+      "sku-selector#prodsum",
       "product-summary-name",
       "flex-layout.row#precios",
       // "product-list-price",
@@ -11,6 +11,16 @@
       "add-to-cart-button"
     ]
   },
+  "sku-selector#prodsum": {
+    "props": {
+      "visibility": "more-than-one",
+      "visibleVariations": ["color"]
+      // "displayMode": "slider",
+      // "sliderArrowSize": 8,
+      // "sliderItemsPerPage": {"desktop": 4, "tablet": 2, "phone": 1}
+    }
+  },
+  
   "flex-layout.col#productRating": {
     "props": {
       "blockClass": "productRating"
