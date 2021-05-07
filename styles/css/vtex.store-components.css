@@ -40,11 +40,6 @@
 }
 
 .newsletter .form .label{
-  font-size: 0;
-}
-
-.newsletter .form .label::before{
-  content: 'Entérate de todas las novedades y promociones';
   color: black;
   font-size: 1rem;
   font-weight: 400;
@@ -206,6 +201,20 @@
   color: #9C9B9B;
   margin: 0 auto;
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--right-col)
+.productBrandContainer{
+  margin-bottom: .5rem;
+}
+
+:global(.vtex-flex-layout-0-x-flexColChild--right-col)
+.productBrandName{
+  color: #3f3f40;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bold;
+  font-size: .8rem;
+  text-transform: uppercase;
 }
 
 :global(.vtex-product-price-1-x-sellingPrice){

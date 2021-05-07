@@ -79,9 +79,18 @@
   font-weight: 400;
   text-transform: capitalize;
 }
-
-
 .filter__container :global(.vtex-checkbox__inner-container){
+  display: none;
+}
+.filter__container--selectedFilters :global(.vtex-checkbox__inner-container){
+  display: block;
+}
+.filter__container--selectedFilters
+:global(.vtex-checkbox__box-wrapper){
+  background:#CF478A;
+}
+
+.filter__container--priceRange{
   display: none;
 }
 

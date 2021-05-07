@@ -15,7 +15,7 @@
       "context": {
         "orderByField": "OrderByReleaseDateDESC",
         "hideUnavailableItems": true,
-        "maxItemsPerPage": 10,
+        "maxItemsPerPage": 12,
         "skusFilter": "ALL",
         "simulationBehavior": "skip"
       }
@@ -144,7 +144,11 @@
   "search-content": {
     "blocks": ["gallery", "not-found"]
   },
-
+  "filter-navigator.v3": {
+    "props":{
+      "initiallyCollapsed": true
+    }
+  },
   "search-result-layout.mobile": {
     "children": [
       "flex-layout.row#searchinfomobile",

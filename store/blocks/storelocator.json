@@ -17,7 +17,7 @@
     },
     "rich-text#title": {
       "props": {
-        "text": "## Store Locator"
+        "text": "## Encuentra nuestras tiendas"
       }
     },
     "store.storedetail": {
@@ -26,7 +26,7 @@
     "store-group": {
       "children": ["flex-layout.row#containerStore"],
       "props": {
-        "title": "{storeName} Store"
+        "title": "Ma’Stampa {storeName}"
       }
     },
     "flex-layout.row#titleStore": {
@@ -44,13 +44,13 @@
     },
     "rich-text#titleStore": {
       "props": {
-        "text": "## Store Detail"
+        "text": "#### Detalles de la tienda"
       }
     },
     "flex-layout.col#detail": {
       "children": [
         "store-back-link",
-        "store-map",
+        "store-name",
         "store-address",
         "store-hours",
         "store-instructions"
@@ -61,20 +61,20 @@
       }
     },
     "flex-layout.col#store": {
-      "children": ["store-name"],
+      "children": ["store-map"],
       "props": {
-        "width": "70%"
+        "width": "60%"
       }
     },
     "store-hours": {
       "props": {
-        "label": "Business hours:",
+        "label": "Horario de la tienda:",
         "format": "12h"
       }
     },
     "store-back-link": {
       "props": {
-        "label": "Back to all stores"
+        "label": "Volver atrás"
       }
     },
     "store-instructions": {

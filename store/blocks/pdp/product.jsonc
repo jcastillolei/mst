@@ -119,6 +119,7 @@
     "children": [
       "breadcrumb",
       "flex-layout.row#product-name",
+      "vtex.store-components:product-brand",
       "product-identifier.product",
       "flex-layout.row#selling-price",
       "product-list-price",
@@ -167,16 +168,6 @@
     "props":{
       "text": "agregar al carro",
       "unavailableText": "no disponible"
-    }
-  },
-  "share#default": {
-    "props": {
-      "social": {
-        "Facebook": true,
-        "WhatsApp": true,
-        "Twitter": false,
-        "Pinterest": true
-      }
     }
   }
 }

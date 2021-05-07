@@ -11,6 +11,12 @@
       "newsletter"
     ]
   },
+  "newsletter":{
+    "props":{
+      "label": "¡Únete a Ma’Stampa! Entérate de todas las novedades y promociones",
+      "placeholder": "Email"
+    }
+  },
   "flex-layout.row#categorias-row": {
     "children": [
       "flex-layout.col#categorias-col-01",
