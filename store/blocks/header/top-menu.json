@@ -46,8 +46,8 @@
       "iconId": null,
       "highlight": false,
       "itemProps": {
-        "type": "internal",
-        "href": "#",
+        "type": "external",
+        "href": "https://enviame.io/tracking/",
         "noFollow": false,
         "tagTitle": "SEGUIR MI PEDIDO",
         "text": "SEGUIR MI PEDIDO"

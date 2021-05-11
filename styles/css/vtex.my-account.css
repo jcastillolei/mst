@@ -1,0 +1,129 @@
+:global(.vtex-account){
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.addressEdit
+:global(.vtex-button),
+:global(.vtex-modal__confirmation)
+:global(.vtex-button),
+:global(.vtex-pageHeader__children)
+:global(.vtex-button),
+.boxContainerFooter
+:global(.vtex-button),
+.passwordBoxContainer
+:global(.vtex-button),
+:global(.vtex-profile-form-3-x-profileContainer)
+:global(.vtex-button){
+    background-color: rgb(225, 56, 140);
+    border: none;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.passwordBoxContainer
+:global(.vtex-input__label){
+    font-family: 'Roboto Condensed', sans-serif;
+}
+:global(.vtex-alert){
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.profileBoxContainer
+.boxContainerFooter
+:global(.vtex-button)
+:global(.vtex-button__label)::before{
+    content: url('https://api.iconify.design/oi-pencil.svg?color=white&height=10'); vertical-align: -0.125em;
+	margin-right: 5px;
+    fill: white;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-input__label),
+:global(.vtex-account__page)
+:global(.vtex-dropdown__label){
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+:global(.vtex-account__page)
+:global(.vtex-input)
+:global(.f6){
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-input-prefix__group)
+:global(.f6){
+    border: 1px solid rgba(170, 170, 170, 0.5);
+}
+
+:global(.vtex-account__page)
+:global(.vtex-dropdown__button)
+:global(.vtex-dropdown__caption){
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-dropdown)
+:global(.ba){
+    border: 1px solid rgba(170, 170, 170, 0.5);
+}
+
+:global(.vtex-my-orders-app-3-x-detailsBtn),
+.addressEdit
+:global(.mt5)
+:global(.vtex-button),
+:global(.vtex-profile-form-3-x-profileContainer)
+:global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper)
+:global(.vtex-button),
+:global(.vtex-modal__confirmation)
+:global(.mr4)
+:global(.vtex-button){
+    background-color: rgba(225, 56, 140, 0.150);
+    border: none;
+    color: rgb(225, 56, 140);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+:global(.vtex-profile-form-3-x-profileContainer)
+:global(.vtex-profile-form-3-x-toggleBusinessButtonWrapper)
+:global(.vtex-button):hover{
+    box-shadow: 0px 1px 2px rgba(128, 128, 128, 0.4);
+    background-color: rgba(225, 56, 140, 0.250);
+}
+
+:global(.vtex-pageHeader-link__container)
+:global(.vtex-button){
+    color: rgb(225, 56, 140);
+}
+
+:global(.vtex-account_menu-link.b--action-primary){
+    border-color: rgb(225, 56, 140);
+}
+
+.newsletterBoxContainer
+:global(.vtex-checkbox__inner-container.b--action-primary){
+    background-color: rgb(225, 56, 140);
+    border: none;
+}
+
+:global(.vtex-account__page)
+:global(.vtex-pageHeader__title),
+:global(.vtex-account__page-body)
+:global(.t-heading-4),
+:global(.vtex-styleguide-9-x-scrollBar)
+:global(.t-heading-5){
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+:global(.vtex-my-orders-app-3-x-orderProductName),
+:global(.vtex-my-orders-app-3-x-reorderBtn)
+:global(.vtex-my-orders-app-3-x-font){
+    color: rgb(225, 56, 140);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+:global(.vtex-my-orders-app-3-x-orderProductShipping){
+    margin-bottom: 0;
+}
+

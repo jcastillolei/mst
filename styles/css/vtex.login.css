@@ -61,3 +61,26 @@
     background: #CF478A;
     border-color: #CF478A;
 }
+
+.accessCodeOptionBtn
+:global(.vtex-button){
+    background-color: #CF478A;
+    border: 0;
+    font-weight: 400;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: .9rem;
+    text-transform: none;
+}
+
+.formTitle{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.inputContainerAccessCode
+:global(.vtex-styleguide-9-x-input){
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.inputContainerAccessCode
+:global(.vtex-input-prefix__group){
+    border: 1px solid rgba(170, 170, 170, 0.5);
+}
