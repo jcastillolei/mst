@@ -17,7 +17,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/about-us",
+        "href": "/quienes-somos",
         "noFollow": false,
         "tagTitle": "Quienes Somos",
         "text": "Quienes Somos"
@@ -73,7 +73,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/terms",
+        "href": "/terminos-y-condiciones",
         "noFollow": true,
         "tagTitle": "Términos y condiciones",
         "text": "Términos y condiciones"
@@ -89,7 +89,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "medios-de-pago",
         "noFollow": true,
         "tagTitle": "Medios de pago",
         "text": "Medios de pago"
@@ -105,7 +105,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "cambios-y-devoluciones",
         "noFollow": true,
         "tagTitle": "Devoluciones",
         "text": "Devoluciones"
@@ -132,7 +132,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/bags/d",
+        "href": "#",
         "noFollow": true,
         "tagTitle": "Mi vendedora",
         "text": "Mi vendedora"
@@ -148,7 +148,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/account#/orders",
         "noFollow": true,
         "tagTitle": "Mis pedidos",
         "text": "Mis pedidos"
@@ -186,7 +186,7 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/about-us",
+        "href": "/quienes-somos",
         "noFollow": true,
         "tagTitle": "QUIÉNES SOMOS",
         "text": "Quiénes Somos"
@@ -198,7 +198,7 @@
     "props": {
       "itemProps": {
         "type": "internal",
-        "href": "/terms",
+        "href": "/terminos-y-condiciones",
         "noFollow": true,
         "tagTitle": "TÉRMINOS",
         "text": "Términos"

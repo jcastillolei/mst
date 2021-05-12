@@ -1,17 +1,23 @@
 {
   "store.custom#about-us": {
-    "path": "/about-us"
+    "path": "/quienes-somos"
   },
   "store.custom#terms": {
-    "path": "/terms"
+    "path": "/terminos-y-condiciones"
   },
   "store.custom#faq": {
-    "path": "/faq"
+    "path": "/preguntas-frecuentes"
   },
   "store.custom#contact-us": {
     "path": "/contact-us"
   },
   "store.storelocator": {
     "path": "/storelocator"
+  },
+  "store.custom#medios-de-pago": {
+    "path": "/medios-de-pago"
+  },
+  "store.custom#politicas-devolucion": {
+    "path": "/cambios-y-devoluciones"
   }
 }

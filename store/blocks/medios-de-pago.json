@@ -1,0 +1,56 @@
+{
+  "store.custom#medios-de-pago": {
+    "blocks": [
+      "flex-layout.row#medios",
+      "newsletter"
+    ]
+  },
+
+  "flex-layout.row#medios": {
+    "children": [
+      "flex-layout.col#text-medios"
+    ],
+    "props":{
+      "horizontalAlign": "center"
+    }
+  },
+
+  "flex-layout.col#text-medios": {
+    "children": ["rich-text#title-medios", "rich-text#medios", "rich-text#medios2"],
+    "props": {
+      "blockclass": "textColumn",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#title-medios": {
+    "props": {
+      "text":
+      "### MEDIOS DE PAGO",
+      "blockClass": "title"
+    }
+  },
+
+  "image#mobile-phone": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/arquivos/mobile-phone.png",
+      "maxHeight": "",
+      "maxWidth": "",
+      "blockClass": "storePrint"
+    }
+  },
+  "rich-text#medios": {
+    "props": {
+      "marginTop": 8,
+      "text": "**TARJETAS DE CRÉDITO O DÉBITO VÍA WEBPAY**\nEl pago a través del sistema Webpay se realiza en un servidor seguro de Transbank.\nAceptamos pagos con tarjetas de crédito (Visa, MasterCard, American Express y Diners Club). También puedes pagar con tarjetas de débito (Redcompra).\nLas tarjetas que son consideradas Cuenta Vista (por ejemplo, cuenta Rut del Banco Estado) también pueden ser utilizadas a través de Redcompra. Las tarjetas deben ser emitidas por un banco chileno y el pago se gestiona en un servidor seguro gracias al portal Webpay Plus de Transbank.\n",
+      "blockClass": "terms"
+    }
+  },
+  "rich-text#medios2": {
+    "props": {
+      "marginTop": 0,
+      "text": "Es importante señalar, que cualquier método de pago que prefieras para efectuar tu compra, los datos de tu tarjeta no son entregados ni menos utilizados en nuestra tienda.",
+      "blockClass": "terms"
+    }
+  }
+}
