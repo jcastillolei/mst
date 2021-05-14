@@ -17,7 +17,7 @@
 .submenuWrapper--isOpen .styledLinkContent{
     text-transform: capitalize;
     font-weight: 400 !important;
-    font-size: .7rem !important;
+    font-size: .9rem !important;
     font-family: 'Roboto Condensed', sans-serif;
     padding-bottom: 9px;
 }

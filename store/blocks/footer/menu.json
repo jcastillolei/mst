@@ -117,9 +117,9 @@
     "props": {
       "orientation": "vertical"
     },
-    "children": [
+    "children": [ 
       "menu-item#mivendedora",
-      "menu-item#mispedidos",
+      "menu-item#mispedidos2",
       "login#personal-click"
     ]
   },
@@ -132,15 +132,15 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "https://enviame.io/tracking/",
         "noFollow": true,
-        "tagTitle": "Mi vendedora",
-        "text": "Mi vendedora"
+        "tagTitle": "Seguir mi pedido",
+        "text": "Seguir mi pedido"
       }
     }
   },
 
-  "menu-item#mispedidos": {
+  "menu-item#mispedidos2": {
     "props": {
       "id": "menu-item-backpacks",
       "type": "custom",
@@ -159,7 +159,7 @@
   "login#personal-click": {
     "props": {
       "optionsTitle": "Iniciar Sesión",
-      "iconLabel": "PERSONAL CLICK",
+      "iconLabel": "Personal Click",
       "blockClass": "personal-click-button",
       "mirrorTooltipToRight": true
     }

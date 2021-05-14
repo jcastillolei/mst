@@ -22,9 +22,9 @@
 }
 
 .newsletter {
-  background-color: transparent !important;
-  max-width: 1528px;
-  margin: 0 auto;
+  padding: .5rem 0;
+  background-color: #eee;
+  margin: 0 auto 1.8rem;
 }
 
 @media(min-width: 991px){
@@ -58,6 +58,7 @@
 }
 .newsletter .form :global(.vtex-button){
   color: black;
+  background-color: #CF478A;
   text-transform: capitalize;
   border: none;
   position: absolute;
@@ -81,14 +82,14 @@
 }
 
 .inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
-  background-color: #CF478A;
-  border: none;
+  background-color: white;
+  border: 2px solid#CF478A;
   border-radius: 0px;
 }
 
 .inputGroup
 :global(.vtex-styleguide-9-x-noAppearance)::placeholder{
-  color: white;
+  color: black;
   font-size: 14px;
 }
 
@@ -173,8 +174,8 @@
 }
 
 .logoContainer .logoImage{
-  padding-top: 25px;
-  padding-bottom: 15px;
+  padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 /* p r o d u c t o | ficha de producto*/
@@ -357,4 +358,17 @@
 .submit
 :global(.vtex-button__label){
   font-family: 'Roboto Condensed', sans-serif;
+}
+
+:global(.vtex-slider-layout-0-x-slideChildrenContainer--shelf)
+.skuSelectorSubcontainer--color
+.skuSelectorNameContainer
+.skuSelectorOptionsList
+.skuSelectorItem:first-child,
+:global(.vtex-search-result-3-x-galleryItem)
+.skuSelectorSubcontainer--color
+.skuSelectorNameContainer
+.skuSelectorOptionsList
+.skuSelectorItem:first-child{
+  display: none;
 }

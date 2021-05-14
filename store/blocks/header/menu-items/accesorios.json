@@ -231,7 +231,6 @@
           "menu-item#joyeria",
           "menu-item#anillo",
           "menu-item#aros",
-          "menu-item#cartera2",
           "menu-item#collar",
           "menu-item#prendedor",
           "menu-item#pulsera"
@@ -283,21 +282,7 @@
           }
         }
       },
-      "menu-item#cartera2": {
-        "props": {
-          "id": "menu-item-cartera2",
-          "type": "custom",
-          "iconId": null,
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "/Accesorio/Joyeria/Cartera",
-            "noFollow": true,
-            "tagTitle": "Cartera",
-            "text": "Cartera"
-          }
-        }
-      },
+
       "menu-item#collar": {
         "props": {
           "id": "menu-item-collar",
