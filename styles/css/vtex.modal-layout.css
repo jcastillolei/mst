@@ -87,3 +87,18 @@
 .paper--product-gifts {
   padding: 1.5rem;
 }
+
+
+.paper--modal-info
+:global(.vtex-rich-text-0-x-wrapper){
+  padding: 0 3rem 2rem 3rem;
+  text-align: center;
+}
+.paper--modal-info
+:global(.vtex-rich-text-0-x-wrapper)
+:global(.vtex-rich-text-0-x-heading){
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.container--modal-info.container{
+  background-color: rgba(0, 0, 0, 0.350);
+}

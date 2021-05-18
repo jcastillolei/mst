@@ -1,6 +1,7 @@
 {
   "store.home": {
     "blocks": [
+      "modal-trigger#infocatalogo",
       "list-context.image-list#demo",
       "__fold__.experimentalLazyAssets",
       "list-context.image-list#imagen2",
@@ -11,10 +12,32 @@
       "newsletter"
     ]
   },
-  "newsletter":{
+  "modal-trigger#infocatalogo": {
+    "children": [
+      "modal-layout#infocatalogo"
+    ],
+    "props": {
+      "trigger": "load",
+      "blockClass": "modal-info"
+    }
+  },
+  "modal-header#infocatalogo":{
     "props":{
-      "label": "¡Únete a Ma’Stampa! Entérate de todas las novedades y promociones",
-      "placeholder": "Email"
+      "showCloseButton": true,
+      "iconCloseSize": 20
+    }
+  },
+  "modal-layout#infocatalogo": {
+    "children": [
+      "modal-header#infocatalogo",
+      "rich-text#infotext"
+    ],
+    "props":{"blockClass": "modal-info"}
+  },
+  
+  "rich-text#infotext": {
+    "props": {
+      "text": "### **ESTAMOS TRABAJANDO PARA MEJORAR SU EXPERIENCIA.**\n#### Mira nuestra ropa de invierno.\nPronto subiremos los productos que más te gustan\ny los habilitaremos para que los pidas desde aquí."
     }
   },
   "flex-layout.row#categorias-row": {

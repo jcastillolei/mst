@@ -127,7 +127,7 @@
       "sku-selector",
       "product-assembly-options",
       "product-gifts",
-      "flex-layout.row#buy-button",
+      // "flex-layout.row#buy-button",
       "flex-layout.row#deals",
       "availability-subscriber",
       "flex-layout.row#description"
