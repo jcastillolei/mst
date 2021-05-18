@@ -9,8 +9,8 @@
             "type": "internal",
             "href": "/Accesorio",
             "noFollow": true,
-            "tagTitle": "ACCESORIOS",
-            "text": "ACCESORIOS"
+            "tagTitle": "ACCESORIO",
+            "text": "ACCESORIO"
           }
         },
         "blocks": [
@@ -27,10 +27,7 @@
       },
       "flex-layout.row#menu-accesorios": {
         "children": [
-          "flex-layout.col#menu-accesorios-1",
-          "flex-layout.col#menu-accesorios-2",
-          "flex-layout.col#menu-accesorios-3",
-          "flex-layout.col#menu-accesorios-4"
+          "flex-layout.col#menu-accesorios-1"
         ]
       },
       "flex-layout.col#menu-accesorios-1": {
@@ -59,15 +56,11 @@
         },
         "children": [
           "menu-item#bolsosycarteras",
-          "menu-item#bolso",
-          "menu-item#cartera",
+          "menu-item#complementos",
+          "menu-item#joyeria",
           "menu-item#monederosybilleteras",
-          "menu-item#billetera",
-          "menu-item#monedero",
-          "menu-item#playa",
-          "menu-item#camisola",
-          "menu-item#pareo",
-          "menu-item#toalla"
+          "menu-item#panuelosycapas",
+          "menu-item#playa"
         ]
       },
       "menu-item#bolsosycarteras": {

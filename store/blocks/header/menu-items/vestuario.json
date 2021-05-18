@@ -28,9 +28,6 @@
       "flex-layout.row#menu-vestuario": {
         "children": [
           "flex-layout.col#menu-vestuario-1",
-          "flex-layout.col#menu-vestuario-2",
-          "flex-layout.col#menu-vestuario-3",
-          "flex-layout.col#menu-vestuario-4",
           "flex-layout.col#menu-vestuario-5"
         ]
       },
@@ -65,8 +62,12 @@
         },
         "children": [
           "menu-item#casacasyparkas",
-          "menu-item#casacayparka",
-          "menu-item#impermeable"
+          "menu-item#abrigosychaquetones",
+          "menu-item#blusasypoleras",
+          "menu-item#chaquetayblazer",
+          "menu-item#sweaterychaleco",
+          "menu-item#trajedebano",
+          "menu-item#vestidosyconjuntos"
         ]
       },
       "menu-item#trajedebano": {
@@ -638,13 +639,8 @@
         },
         "children": [
           "menu-item#faldasypantalones",
-          "menu-item#bermuda",
-          "menu-item#calza",
-          "menu-item#capri",
+          "menu-item#pantalon",
           "menu-item#falda",
-          "menu-item#largo",
-          "menu-item#pescador",
-          "menu-item#pirata",
           "menu-item#short"
         ]
       },
@@ -664,18 +660,18 @@
           "blockClass": "titulo-item-menu"
         }
       },
-      "menu-item#bermuda": {
+      "menu-item#pantalon": {
         "props": {
-          "id": "menu-item-bermuda",
+          "id": "menu-item-pantalon",
           "type": "custom",
           "iconId": null,
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/Vestuario/Faldas-y-Pantalones/Bermuda",
+            "href": "/Vestuario/Faldas-y-Pantalones/Pantalon",
             "noFollow": true,
-            "tagTitle": "Bermuda",
-            "text": "Bermuda"
+            "tagTitle": "Pantalón",
+            "text": "Pantalón"
           }
         }
       },
