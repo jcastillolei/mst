@@ -50,3 +50,7 @@
 .overlay--visible{
     background: black;
 }
+
+.minicartContainer{
+    display: none;
+}
