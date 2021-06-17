@@ -1,7 +1,6 @@
 {
   "store.home": {
     "blocks": [
-      "modal-trigger#infocatalogo",
       "list-context.image-list#main-carousel",
       "__fold__.experimentalLazyAssets",
       "list-context.image-list#imagen2",
