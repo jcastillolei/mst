@@ -23,6 +23,13 @@
     "blocks": ["login-content#default", "newsletter"]
   },
 
+
+  "newsletter":{
+    "props": {
+      "label": "¡ÚNETE A MA’STAMPA! ENTÉRATE DE TODAS LAS NOVEDADES Y PROMOCIONES"
+    }
+  },
+
   "login-content#default": {
     "props": {
       "isInitialScreenOptionOnly": false,
