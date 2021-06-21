@@ -345,3 +345,19 @@
     display: none;
   }
 }
+
+/* S T O R E L O C A T O R*/
+:global(.vtex-store-locator-0-x-addressListItem):hover {
+  background-color: #CF478A;
+  color: #fff;
+}
+
+:global(.vtex-store-locator-0-x-addressListLink){
+  display: none;
+}
+:global(.vtex-store-locator-0-x-storesMapCol){
+  height: 500px;
+}
+:global(.vtex-store-locator-0-x-markerInfoLink){
+  display: none;
+}
