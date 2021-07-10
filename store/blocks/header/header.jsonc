@@ -9,7 +9,8 @@
     "children": [
       "flex-layout.row#1-desktop", //televentas
       "flex-layout.row#3-desktop", //topbar
-      "sticky-layout#4-desktop" //menu
+      "sticky-layout#4-desktop", //menu
+      "flex-layout.row#menu-open"
     ]
   },
 
@@ -325,7 +326,7 @@
       "orientation": "horizontal",
       "blockClass": "menu-open"
     },
-    "children":["menu-item#masvendidos", "menu-item#sale"]
+    "children":["menu-item#masvendidos", "menu-item#sale","menu-item#abrigosychaquetones", "menu-item#monederosybilleteras"]
   },
   "menu-item#masvendidos": {
     "props": {
@@ -335,9 +336,9 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/Vestuario/Traje-de-Baño",
+        "href": "#",
         "noFollow": true,
-        "tagTitle": "TRAJE DE BA˜˜NO",
+        "tagTitle": "LOS MAS VENDIDOS",
         "text": "LOS MÁS VENDIDOS"
       },
       "blockClass": "titulo-item-menu"
@@ -351,9 +352,9 @@
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/Vestuario/Traje-de-Baño",
+        "href": "#",
         "noFollow": true,
-        "tagTitle": "TRAJE DE BA˜˜NO",
+        "tagTitle": "SALE",
         "text": "SALE"
       },
       "blockClass": "titulo-item-menu"

@@ -362,3 +362,31 @@
 :global(.vtex-store-locator-0-x-markerInfoLink){
   display: none;
 }
+
+.flexRow--menu-open
+:global(.vtex-store-components-3-x-container){
+  max-width: 97%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.flexRow--menu-open
+:global(.vtex-store-components-3-x-container)
+:global(.vtex-menu-2-x-menuContainer--menu-open){
+  height: 55px;
+}
+
+.flexRow--menu-open
+:global(.vtex-store-components-3-x-container)
+:global(.vtex-menu-2-x-styledLinkContent--titulo-item-menu){
+  font-weight: 400 !important;
+  font-size: 0.85rem !important;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: .15rem;
+}
+
+.flexRow--menu-open
+:global(.vtex-store-components-3-x-container)
+:global(.vtex-menu-2-x-menuItem--titulo-item-menu){
+  align-self: center;
+}
