@@ -27,8 +27,7 @@
       },
       "flex-layout.row#menu-vestuario": {
         "children": [
-          "flex-layout.col#menu-vestuario-1",
-          "flex-layout.col#menu-vestuario-5"
+          "flex-layout.col#menu-vestuario-1"
         ]
       },
       "flex-layout.col#menu-vestuario-1": {
@@ -58,7 +57,7 @@
       },
       "vtex.menu@2.x:menu#vestuario": {
         "props": {
-          "orientation": "vertical"
+          "orientation": "horizontal"
         },
         "children": [
           "menu-item#casacasyparkas",

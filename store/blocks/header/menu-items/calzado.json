@@ -38,7 +38,7 @@
       },
       "vtex.menu@2.x:menu#calzado": {
         "props": {
-          "orientation": "vertical"
+          "orientation": "horizontal"
         },
         "children": [
           "menu-item#ballerina",

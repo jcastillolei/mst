@@ -17,9 +17,10 @@
 }
 
 .flexRowContent--menu-link {
-  background-color: #e1388c !important;
-  color: #fff;
-  height: 50px;
+  background-color: white !important;
+  color: black;
+  justify-content: flex-end;
+  height: 40px;
 }
 
 .flexRowContent--main-header {
@@ -309,14 +310,14 @@
 /* m o b i l e  h e a d e r */
 :global(.vtex-sticky-layout-0-x-container)
 .flexRowContent--main-header-mobile{
-  background-color: #5B1C39 !important;
+  background-color: white !important;
 }
 .flexRowContent--main-header-mobile{
   background-color: #5B1C39;
 }
 .flexRowContent--main-header-mobile
 :global(.vtex-store-drawer-0-x-menuIcon){
-  color: white;
+  color: #5B1C39;
   width: 2rem;
 }
 @media(max-width: 990px){

@@ -177,10 +177,16 @@
   font-size:1.1rem;
 }
 
+.buttonShowMore--layout{
+  margin-bottom: 2rem;
+}
+
 .buttonShowMore--layout
 :global(.vtex-button){
   background-color: transparent;
   border-color: #e1388c;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .buttonShowMore--layout
@@ -188,5 +194,8 @@
 :global(.vtex-button__label){
   color: black;
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: .8rem;
+  font-size: .9rem;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+
 }

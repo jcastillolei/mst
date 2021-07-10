@@ -3,18 +3,21 @@
 .noAppearance{
     color: white;
 }
-
+:global(.vtex-store-components-3-x-searchBarContainer){
+    align-self: center;
+}
 :global(.vtex-store-components-3-x-searchBarContainer) .input{
-    color: white;
+    color: black;
     background-color: transparent;
     border: none;
     font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 400;
+    font-weight: 200;
     font-size: .85rem;
     border-bottom: 1px solid white;
 }
 
 :global(.vtex-store-components-3-x-searchBarContainer) .input::placeholder{
-    color: white;
-    font-weight: 500;
+    color: transparent;
+    font-weight: 100;
+    font-style: italic;
 }

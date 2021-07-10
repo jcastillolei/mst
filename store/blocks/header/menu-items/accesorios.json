@@ -10,7 +10,7 @@
             "href": "/Accesorio",
             "noFollow": true,
             "tagTitle": "ACCESORIO",
-            "text": "ACCESORIO"
+            "text": "ACCESORIOS"
           }
         },
         "blocks": [
@@ -52,15 +52,12 @@
       },
       "vtex.menu@2.x:menu#accesorios": {
         "props": {
-          "orientation": "vertical"
+          "orientation": "horizontal"
         },
         "children": [
-          "menu-item#bolsosycarteras",
-          "menu-item#complementos",
           "menu-item#joyeria",
           "menu-item#monederosybilleteras",
-          "menu-item#panuelosycapas",
-          "menu-item#playa"
+          "menu-item#panuelosycapas"
         ]
       },
       "menu-item#bolsosycarteras": {

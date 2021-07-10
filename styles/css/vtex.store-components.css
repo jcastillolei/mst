@@ -23,7 +23,7 @@
 
 .newsletter {
   padding: .5rem 0;
-  background-color: #eee;
+  background-color: #f8e3e8;
   margin: 0 auto 1.8rem;
 }
 
@@ -174,8 +174,8 @@
 }
 
 .logoContainer .logoImage{
-  padding-top: 20px;
-  padding-bottom: 10px;
+  /* padding-top: 20px;
+  padding-bottom: 10px; */
 }
 
 /* p r o d u c t o | ficha de producto*/
@@ -371,4 +371,82 @@
 .skuSelectorOptionsList
 .skuSelectorItem:first-child{
   display: none;
+}
+
+/* ORDEN DE TALLAS FICHA DE PRODUCTO */
+/* xs-3x*/
+.skuSelectorItem--xs {
+  order: 1;
+}
+
+.skuSelectorItem--s {
+  order: 2;
+}
+.skuSelectorItem--m {
+  order: 3;
+}
+.skuSelectorItem--l {
+  order: 4;
+}
+.skuSelectorItem--xl {
+  order: 5;
+}
+.skuSelectorItem--xxl {
+  order: 6;
+}
+.skuSelectorItem--2x {
+  order: 7;
+}
+
+.skuSelectorItem--3x {
+  order: 8;
+}
+
+/*4p-16*/
+.skuSelectorItem--4 {
+  order: 1;
+}
+.skuSelectorItem--4p {
+  order: 2;
+}
+.skuSelectorItem--6 {
+  order: 3;
+}
+.skuSelectorItem--6p {
+  order: 4;
+}
+.skuSelectorItem--8 {
+  order: 5;
+}
+.skuSelectorItem--8p {
+  order: 6;
+}
+.skuSelectorItem--10 {
+  order: 7;
+}
+.skuSelectorItem--10p {
+  order: 8;
+}
+.skuSelectorItem--12 {
+  order: 9;
+}
+.skuSelectorItem--12p {
+  order: 10;
+}
+.skuSelectorItem--14 {
+  order: 11;
+}
+.skuSelectorItem--14p {
+  order: 12;
+}
+.skuSelectorItem--16 {
+  order: 13;
+}
+.skuSelectorItem--16p {
+  order: 14;
+}
+
+.logoLink
+.sizeDesktop{
+  padding-left: 0;
 }

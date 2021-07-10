@@ -3,10 +3,12 @@
     "children": [
       "menu-item#micuenta",
       "menu-item#mispedidos",
-      "menu-item#seguimiento"
+      "menu-item#seguimiento",
+      "menu-item#televentas"
     ],
     "props":{
-      "blockClass": "left"
+      "blockClass": "topbar-menu",
+      "menuDisposition": "right"
     }
   },
   "menu-item#micuenta": {
@@ -64,19 +66,15 @@
         "type": "internal",
         "href": "#",
         "noFollow": false,
-        "tagTitle": "PERSONAL CLICK",
-        "text": "PERSONAL CLICK"
+        "tagTitle": "TELEVENTAS",
+        "text": "TELEVENTAS"
       }
     }
   },
   "vtex.menu@2.x:menu#institutional": {
     "children": [
-      "search-bar",
-      "minicart.v2"
-    ],
-    "props":{
-      "blockClass": "right"
-    }
+      
+    ]
   },
   "login": {
     "props": {

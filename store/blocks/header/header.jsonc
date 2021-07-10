@@ -7,10 +7,9 @@
   },
   "header-layout.desktop": {
     "children": [
-      "flex-layout.row#1-desktop",
-      "flex-layout.row#3-desktop",
-      "flex-layout.row#2-desktop",
-      "sticky-layout#4-desktop"
+      "flex-layout.row#1-desktop", //televentas
+      "flex-layout.row#3-desktop", //topbar
+      "sticky-layout#4-desktop" //menu
     ]
   },
 
@@ -21,25 +20,15 @@
     }
   },
 
-  "flex-layout.row#2-desktop": {
-    "children": ["flex-layout.col#logo-desktop"],
-    "props": {
-      "blockClass": "menu-logo",
-      "fullWidth": "true"
-    }
-  },
   "flex-layout.row#3-desktop": {
     "props": {
       "blockClass": "menu-link",
-      "horizontalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true
     },
     "children": [
-      "vtex.menu@2.x:menu#websites",
-      "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#institutional"
+      "vtex.menu@2.x:menu#websites"
     ]
   },
   "flex-layout.col#spacer": {
@@ -56,14 +45,17 @@
   "flex-layout.row#4-desktop": {
     "props": {
       "blockClass": "main-header",
-      "horizontalAlign": "center",
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "fullWidth": true
     },
     "children": [
-      "flex-layout.col#category-menu"
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#category-menu",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "minicart.v2"
     ]
   },
   "flex-layout.col#logo-desktop": {
@@ -77,13 +69,15 @@
     "props": {
       "verticalAlign": "middle"
     },
-    "children": ["vtex.menu@2.x:menu#category-menu"]
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ]
   },
   "logo#desktop": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://mastampa.vteximg.com.br/arquivos/logotipo-mastampa.png",
+      "url": "/arquivos/logo-mastampa.png",
       "width": "250"
     }
   },
@@ -315,8 +309,54 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://mastampa.vtexassets.com/arquivos/logotipo-mastampa.png",
+      "url": "/arquivos/logo-mastampa.png",
       "width": "170"
+    }
+  },
+
+  "flex-layout.row#menu-open": {
+    "children": ["vtex.menu@2.x:menu#menu-open"],
+    "props": {
+      "blockClass": "menu-open"
+    }
+  },
+  "vtex.menu@2.x:menu#menu-open":{
+    "props": {
+      "orientation": "horizontal",
+      "blockClass": "menu-open"
+    },
+    "children":["menu-item#masvendidos", "menu-item#sale"]
+  },
+  "menu-item#masvendidos": {
+    "props": {
+      "id": "menu-item-masvendidos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Vestuario/Traje-de-Baño",
+        "noFollow": true,
+        "tagTitle": "TRAJE DE BA˜˜NO",
+        "text": "LOS MÁS VENDIDOS"
+      },
+      "blockClass": "titulo-item-menu"
+    }
+  },
+  "menu-item#sale": {
+    "props": {
+      "id": "menu-item-sale",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/Vestuario/Traje-de-Baño",
+        "noFollow": true,
+        "tagTitle": "TRAJE DE BA˜˜NO",
+        "text": "SALE"
+      },
+      "blockClass": "titulo-item-menu"
     }
   }
 }

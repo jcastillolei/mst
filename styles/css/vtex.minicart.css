@@ -26,7 +26,7 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 .minicartIconContainer{
-    color: white;
+    color: #5E1D39;
 }
 
 :global(.vtex-toast){
@@ -53,4 +53,20 @@
 
 .minicartContainer{
     display: block;
+}
+
+.minicartTitle{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.minicartEmptyStateContainer
+:global(.vtex-rich-text-0-x-paragraph){
+    font-size: 0;
+}
+
+.minicartEmptyStateContainer
+:global(.vtex-rich-text-0-x-paragraph)::before{
+    content: 'Tu carro está vacio';
+    font-size: 1.2rem;
+    font-family: 'Roboto Condensed', sans-serif;
 }
