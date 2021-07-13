@@ -9,8 +9,7 @@
     "children": [
       "flex-layout.row#1-desktop", //televentas
       "flex-layout.row#3-desktop", //topbar
-      "sticky-layout#4-desktop", //menu
-      "flex-layout.row#menu-open"
+      "sticky-layout#4-desktop" //menu
     ]
   },
 
