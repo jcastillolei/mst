@@ -79,6 +79,13 @@
   width: 97%; 
   height: 80px !important;
 }
+.render-route-store-home
+:global(.vtex-sticky-layout-0-x-wrapper--sticky-header) {
+  background-color: white;
+  margin: 0 auto;
+  width: 97%; 
+  height: 8px !important;
+}
 
 :global(.vtex-flex-layout-0-x-flexRow--main-header){
   border-bottom: 1px solid rgb(189, 189, 189);

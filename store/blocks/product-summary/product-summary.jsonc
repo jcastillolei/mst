@@ -20,7 +20,6 @@
       // "sliderItemsPerPage": {"desktop": 4, "tablet": 2, "phone": 1}
     }
   },
-  
   "flex-layout.col#productRating": {
     "props": {
       "blockClass": "productRating"
