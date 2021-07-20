@@ -132,6 +132,7 @@
 :global(.vtex-store-components-3-x-searchBarContainer)
 :global(.vtex-input-prefix__group){
   border: none;
+  border-radius: 0px;
 }
 :global(.vtex-store-components-3-x-searchBarContainer)
 :global(.vtex-input__suffix){

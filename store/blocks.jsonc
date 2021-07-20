@@ -26,7 +26,8 @@
 
   "newsletter":{
     "props": {
-      "label": "¡ÚNETE A MA’STAMPA! ENTÉRATE DE TODAS LAS NOVEDADES Y PROMOCIONES"
+      "label": "¡ÚNETE A MA’STAMPA! ENTÉRATE DE TODAS LAS NOVEDADES Y PROMOCIONES",
+      "placeholder": "Ingresa tu e-mail"
     }
   },
 

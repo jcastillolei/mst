@@ -102,3 +102,44 @@
 .container--modal-info.container{
   background-color: rgba(0, 0, 0, 0.350);
 }
+
+/* GUIA DE TALLAS | MODAL */
+.triggerContainer--guia
+:global(.vtex-rich-text-0-x-wrapper--guia){
+  font-family: 'Roboto Condensed', sans-serif;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.paper--guia{
+  border-radius: 0;
+}
+
+.paper--guia
+:global(.vtex-tab-layout-0-x-container--guia-puntroma)
+:global(.vtex-button){
+  font-family: 'Roboto Condensed', sans-serif;
+  border: none;
+  border-radius: 0;
+}
+
+.paper--guia
+:global(.vtex-tab-layout-0-x-container--guia-puntroma)
+:global(.vtex-tab-layout-0-x-listItemActive)
+:global(.vtex-button){
+  background-color:#CF478A;
+}
+
+.paper--guia
+:global(.vtex-tab-layout-0-x-container--guia-puntroma)
+:global(.vtex-button):hover{
+  background-color: #cf478b6c;
+  color: white;
+}
+
+.paper--guia
+:global(.vtex-tab-layout-0-x-container--guia-puntroma)
+:global(.vtex-tab-layout-0-x-listItemActive)
+:global(.vtex-button):hover{
+  background-color:#CF478A;
+}

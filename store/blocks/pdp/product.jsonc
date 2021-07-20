@@ -130,9 +130,11 @@
       "flex-layout.row#buy-button",
       "flex-layout.row#deals",
       "availability-subscriber",
+      "modal-trigger#guia-de-tallas",
       "flex-layout.row#description"
     ]
   },
+
   "flex-layout.row#product-name": {
     "props": {
       "marginBottom": 1,
@@ -169,5 +171,281 @@
       "text": "agregar al carro",
       "unavailableText": "no disponible"
     }
+  },
+
+  "modal-trigger#guia-de-tallas": {
+    "children": [
+      "rich-text#guia-de-tallas",
+      "modal-layout#guia-de-tallas"
+    ],
+    "props": {
+      "blockClass": "guia"
+    }
+  },
+  "rich-text#guia-de-tallas": {
+    "props": {
+      "text": "Guía de tallas",
+      "blockClass": "guia"
+    }
+  },
+  "modal-layout#guia-de-tallas": {
+    "children": [
+      "condition-layout.product"
+    ],
+    "props": {
+      "blockClass": "guia"
+    }
+  },
+
+  "condition-layout.product": {
+    "children": [
+        "condition#custom-bagoraz",
+        "condition#custom-cathaya",
+        "condition#custom-kalisson",
+        "condition#custom-lecabestan",
+        "condition#custom-puntoingles",
+        "condition#custom-puntroma",
+        "condition#custom-sandrasolari",
+        "condition.else"
+    ]
+  },
+
+  "rich-text#custom-default": {
+    "props": {
+      "text": "No disponible por el momento."
+    }
+  },
+
+  "condition#custom-bagoraz": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "brandId",
+          "verb": "is",
+          "object": "2000005"
+        }
+      ]
+    },
+    "children": ["image#guia-bagoraz"]
+  },
+
+  "image#guia-bagoraz":{
+    "props": {
+      "src": "/arquivos/Bagoraz.jpg",
+      "maxHeight": "",
+      "maxWidth": ""
+    }
+  },
+
+  "condition#custom-cathaya": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "brandId",
+          "verb": "is",
+          "object": "2000004"
+        }
+      ]
+    },
+    "children": ["image#guia-cathaya"]
+  },
+
+
+  "image#guia-cathaya":{
+    "props": {
+      "src": "/arquivos/Cathaya.jpg",
+      "maxHeight": "",
+      "maxWidth": ""
+    }
+  },
+  
+  "condition#custom-kalisson": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "brandId",
+          "verb": "is",
+          "object": "2000006"
+        }
+      ]
+    },
+    "children": ["image#guia-kalisson"]
+  },
+
+  "image#guia-kalisson":{
+    "props": {
+      "src": "/arquivos/Kalisson.jpg",
+      "maxHeight": "",
+      "maxWidth": ""
+    }
+  },
+
+  "condition#custom-lecabestan": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "brandId",
+          "verb": "is",
+          "object": "2000011"
+        }
+      ]
+    },
+    "children": ["image#guia-lecabestan"]
+  },
+
+
+  "image#guia-lecabestan":{
+    "props": {
+      "src": "/arquivos/LeCabestan.jpg",
+      "maxHeight": "",
+      "maxWidth": ""
+    }
+  },
+
+  "condition#custom-puntoingles": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "brandId",
+          "verb": "is",
+          "object": "2000009"
+        }
+      ]
+    },
+    "children": ["image#guia-puntoingles"]
+  },
+
+
+  "image#guia-puntoingles":{
+    "props": {
+      "src": "/arquivos/PuntoIngles.jpg",
+      "maxHeight": "",
+      "maxWidth": ""
+    }
+  },
+
+  "condition#custom-puntroma": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "brandId",
+          "verb": "is",
+          "object": "2000001"
+        }
+      ]
+    },
+    "children": ["tab-layout#guia-puntroma"]
+  },
+
+  "tab-layout#guia-puntroma":{
+    "children": [
+      "tab-list#puntroma",
+      "tab-content#puntroma"
+    ],
+    "props": {
+      "blockClass": "guia-puntroma",
+      "defaultActiveTabId": "puntroma-vestir"
+    }
+  },
+
+  "tab-list#puntroma": {
+    "children": [
+      "tab-list.item#puntroma-vestir",
+      "tab-list.item#puntroma-sport",
+      "tab-list.item#puntroma-calzado"
+    ]
+  },
+  "tab-list.item#puntroma-vestir": {
+    "props": {
+      "tabId": "puntroma-vestir",
+      "label": "Vestir",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#puntroma-sport": {
+    "props": {
+      "tabId": "puntroma-sport",
+      "label": "Sport"
+    }
+  },
+  "tab-list.item#puntroma-calzado": {
+    "props": {
+      "tabId": "puntroma-calzado",
+      "label": "Calzado"
+    }
+  },
+  "tab-content#puntroma":{
+    "children": [
+      "tab-content.item#puntroma-vestir",
+      "tab-content.item#puntroma-sport",
+      "tab-content.item#puntroma-calzado"
+    ]
+  },
+  "tab-content.item#puntroma-vestir":{
+    "children": [
+      "image#guia-puntroma-vestir"
+    ],
+    "props": {
+      "tabId": "puntroma-vestir"
+    }
+  },
+  "image#guia-puntroma-vestir":{
+    "props":{
+      "src": "/arquivos/PuntRomaVestir.jpg"
+    }
+  },
+
+  "tab-content.item#puntroma-sport":{
+    "children": [
+      "image#guia-puntroma-sport"
+    ],
+    "props": {
+      "tabId": "puntroma-sport"
+    }
+  },
+  "image#guia-puntroma-sport":{
+    "props":{
+      "src": "/arquivos/PuntRomaSport.jpg"
+    }
+  },
+
+  "tab-content.item#puntroma-calzado":{
+    "children": [
+      "image#guia-puntroma-calzado"
+    ],
+    "props": {
+      "tabId": "puntroma-calzado"
+    }
+  },
+  "image#guia-puntroma-calzado":{
+    "props":{
+      "src": "/arquivos/PuntRomaCalzado.jpg"
+    }
+  },
+
+  "condition#custom-sandrasolari": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "brandId",
+          "verb": "is",
+          "object": "2000013"
+        }
+      ]
+    },
+    "children": ["image#guia-sandrasolari"]
+  },
+
+
+  "image#guia-sandrasolari":{
+    "props": {
+      "src": "/arquivos/SandraSolari.jpg",
+      "maxHeight": "",
+      "maxWidth": ""
+    }
+  },
+
+  "condition.else": {
+    "children": ["rich-text#custom-default"]
   }
 }
